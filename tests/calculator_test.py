@@ -38,4 +38,3 @@ def test_calculator_division():
     calc = Calculator()
     calc.divide_numbers(1, 2)
     assert calc.get_result() == 0.5
-

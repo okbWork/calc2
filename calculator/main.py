@@ -30,4 +30,3 @@ class Calculator:
             return self.result
         except ZeroDivisionError:
             raise ZeroDivisionError("ZeroDivisionError: integer division or modulo by zero")
-            return None
