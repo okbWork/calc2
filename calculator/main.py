@@ -24,5 +24,5 @@ class Calculator:
         """With two real values, divide value a by value b (a / b)"""
         try:
             self.result = value_a / value_b
-        except Exception as e:
-            raise ZeroDivisionError from e
+        except Exception as error_e:
+            raise ZeroDivisionError from error_e
