@@ -24,10 +24,10 @@ class Calculator:
         self.result = value_a * value_b
         return self.result
 
-    def divide_numbers(self, a, b):
+    def divide_numbers(self, value_a, value_b):
         """With two real values, divide value a by value b (a / b)"""
         try:
-            self.result = a / b
+            self.result = value_a / value_b
             return self.result
         except ZeroDivisionError:
             raise ZeroDivisionError("ZeroDivisionError: integer division or modulo by zero")

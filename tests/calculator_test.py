@@ -34,12 +34,12 @@ def test_calculator_multiplication():
     assert calc.get_result() == 2
 
 def test_calculator_division():
-    """ testing multiplication"""
+    """ testing division"""
     calc = Calculator()
     calc.divide_numbers(1, 2)
-    assert calc.get_result() == 2
+    assert calc.get_result() == 0.5
 
 def test_calculator_divide_by_zero():
-    """ testing multiplication"""
+    """ testing division with 0 as the divisor"""
     calc = Calculator()
-    assert calc.divide(1, 0) is None
+    assert calc.divide_numbers(1, 0) is None
