@@ -1,3 +1,5 @@
+"""class to create and use calculator"""
+
 class Calculator:
     """ This is the Calculator class"""
     result = 0

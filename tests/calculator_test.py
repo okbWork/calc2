@@ -39,7 +39,3 @@ def test_calculator_division():
     calc.divide_numbers(1, 2)
     assert calc.get_result() == 0.5
 
-def test_calculator_divide_by_zero():
-    """ testing division with 0 as the divisor"""
-    calc = Calculator()
-    assert calc.divide_numbers(1, 0) is None
