@@ -25,4 +25,4 @@ class Calculator:
         try:
             self.result = value_a / value_b
         except Exception as e:
-            raise ZeroDivisionError
+            raise ZeroDivisionError from e
