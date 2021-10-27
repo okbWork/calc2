@@ -1,3 +1,3 @@
 # Calculator Project
-[![Build Status](https://app.travis-ci.com/okbWork/calc2.svg?branch=main)](https://app.travis-ci.com/okb3/calc2)
+[![Build Status](https://app.travis-ci.com/okbWork/calc2.svg?branch=main)](https://app.travis-ci.com/okbWork/calc2.svg?branch=main)
 
