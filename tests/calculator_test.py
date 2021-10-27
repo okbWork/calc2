@@ -3,8 +3,9 @@ import unittest
 
 from calculator.main import Calculator
 
+
 class MyTestCase(unittest.TestCase):
-    def setUp(selfself) -> None:
+    def setUp(self) -> None:
         self.calculator = Calculator()
 
     def test_calculator_result(self):
@@ -46,8 +47,10 @@ class MyTestCase(unittest.TestCase):
         assert calc.get_result() == 0.5
 
     def test_calculator_division_by_zero(self):
-            """ testing dividing by 0"""
-            calc = Calculator()
-            self.assertRaises(ZeroDivisionError, calc.divide_numbers(1, 0))
-if __name__=='__main__':
+        """ testing dividing by 0"""
+        calc = Calculator()
+        self.assertRaises(ZeroDivisionError, calc.divide_numbers(1, 0))
+
+
+if __name__ == '__main__':
     unittest.main()
