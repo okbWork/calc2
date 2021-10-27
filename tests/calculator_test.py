@@ -5,6 +5,7 @@ from calculator.main import Calculator
 
 
 class MyTestCase(unittest.TestCase):
+    """Class to test calculator. Mainly made for divide function"""
     def setUp(self) -> None:
         self.calculator = Calculator()
 
@@ -49,7 +50,8 @@ class MyTestCase(unittest.TestCase):
     def test_calculator_division_by_zero(self):
         """ testing dividing by 0"""
         self.calculator = Calculator()
-        self.assertRaises(ZeroDivisionError, self.calculator.divide_numbers(1, 0))
+        with self.assertRaises(ZeroDivisionError):
+            self.calculator.divide_numbers(1, 0)
 
 
 if __name__ == '__main__':
